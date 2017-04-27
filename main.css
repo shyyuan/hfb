@@ -4,7 +4,7 @@
 body {
   margin-top:20px;
   font-family: Osaka;
-  background-color: lightgray;
+  background-color: #cce6ff;
   color: inherit;
 }
 
@@ -43,9 +43,10 @@ a {
   min-width: 20vmax;
   height: 20vmax;
   border-radius:100%;
-  background-color: #FF8E00;
+  background-color:#FF8E00;
   text-align: left;
-  background-image: radial-gradient(circle, #ffcd8d, orange);
+  background-image: radial-gradient(circle, #ff471a, orange);
+  /*#ffcd8d*/
   box-shadow: 4px 4px 8px orange, -4px -4px 8px orange, 4px -4px 8px orange, -4px 4px 8px orange;
   text-align: center;
   vertical-align: middle;
@@ -55,7 +56,7 @@ a {
   color: rgba(255, 255, 255, 0.1);
 }
 #happy-fun-ball:hover{
-    background-image: radial-gradient(circle, orange, #ffcd8d);
+    background-image: radial-gradient(circle, #ffff00, #ffcd8d);
       box-shadow: 4px 4px 8px white, -4px -4px 8px white, 4px -4px 8px white, -4px 4px 8px white;
 }
 
@@ -75,6 +76,7 @@ h1 {
   top: 25px;
   font-size: 8vmax;
   text-align: left;
+  color: #0000ff;
 }
 
 .price {
